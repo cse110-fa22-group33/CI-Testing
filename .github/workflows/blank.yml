@@ -27,5 +27,7 @@ jobs:
 
       - name: Install modules
         run: npm install
+        working-directory: ./source
       - name: Run tests
         run: npm test
+        working-directory: ./source
