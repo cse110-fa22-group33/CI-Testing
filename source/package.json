@@ -23,7 +23,7 @@
   "version": "1.0.0",
   "description": "A very cool app B)",
   "main": "main.js",
-  "author": "",
+  "author": "Bradley and Steven of Code Monkeyz",
   "license": "ISC",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
