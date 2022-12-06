@@ -29,7 +29,9 @@ jobs:
         run: npm install
         working-directory: ./source
       - name: Open dev server
-        run: npm run dev
+        run: |
+          npm run dev &
+          sleep 5
         working-directory: ./source
       - name: Run tests
         run: npm test
