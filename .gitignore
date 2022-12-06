@@ -1,2 +1,4 @@
 node_modules
 source/out
+source/dist
+.parcel-cache

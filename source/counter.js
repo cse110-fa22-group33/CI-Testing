@@ -29,4 +29,3 @@ function init(){
         count.innerHTML = clicks.total;
     });
 }
-module.exports = {click, resetCounter, clicks};
